@@ -39,5 +39,6 @@
     "web": "expo start --web",
     "lint": "expo lint"
   },
-  "private": true
+  "private": true,
+  "packageManager": "yarn@4.18.1"
 }
