@@ -1827,6 +1827,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-rethemed/core@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@react-native-rethemed/core@npm:0.1.2"
+  peerDependencies:
+    react: ">=18"
+    react-native: "*"
+  checksum: 10c0/f6e6ee76a93488103637d0c61e421b731fb1b84055b6ee7182bf446ff7c7f3c156cadd732eeb3df3f345a28a42c49607dac9ae7fdd4f0208d4fc9f6ad962cba3
+  languageName: node
+  linkType: hard
+
 "@react-native/assets-registry@npm:0.86.3":
   version: 0.86.3
   resolution: "@react-native/assets-registry@npm:0.86.3"
@@ -5022,6 +5032,7 @@ __metadata:
   resolution: "react-native-rethemed-snack-app@workspace:."
   dependencies:
     "@expo/ui": "npm:~57.0.22"
+    "@react-native-rethemed/core": "npm:0.1.2"
     "@types/react": "npm:~19.2.2"
     expo: "npm:~57.0.27"
     expo-constants: "npm:~57.0.21"
