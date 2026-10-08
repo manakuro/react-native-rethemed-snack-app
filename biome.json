@@ -1,0 +1,48 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.4/schema.json",
+  "extends": ["./node_modules/biome-config/biome.json"],
+  "files": {
+    "ignoreUnknown": false,
+    "includes": ["!**/node_modules/", "!**/dist/", "!**/*.gen.ts"]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space"
+  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "correctness": {
+        "noUnusedImports": {
+          "fix": "safe",
+          "level": "error"
+        },
+        "useExhaustiveDependencies": {
+          "fix": "safe",
+          "level": "error"
+        }
+      },
+      "style": {
+        "useFilenamingConvention": {
+          "level": "error",
+          "options": {
+            "filenameCases": ["kebab-case"],
+            "requireAscii": true
+          }
+        }
+      }
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "trailingCommas": "all",
+      "quoteStyle": "single"
+    },
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    },
+    "globals": ["React", "JSX"]
+  }
+}

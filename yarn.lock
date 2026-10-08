@@ -810,6 +810,97 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@biomejs/biome@npm:2.5.4":
+  version: 2.5.4
+  resolution: "@biomejs/biome@npm:2.5.4"
+  dependencies:
+    "@biomejs/cli-darwin-arm64": "npm:2.5.4"
+    "@biomejs/cli-darwin-x64": "npm:2.5.4"
+    "@biomejs/cli-linux-arm64": "npm:2.5.4"
+    "@biomejs/cli-linux-arm64-musl": "npm:2.5.4"
+    "@biomejs/cli-linux-x64": "npm:2.5.4"
+    "@biomejs/cli-linux-x64-musl": "npm:2.5.4"
+    "@biomejs/cli-win32-arm64": "npm:2.5.4"
+    "@biomejs/cli-win32-x64": "npm:2.5.4"
+  dependenciesMeta:
+    "@biomejs/cli-darwin-arm64":
+      optional: true
+    "@biomejs/cli-darwin-x64":
+      optional: true
+    "@biomejs/cli-linux-arm64":
+      optional: true
+    "@biomejs/cli-linux-arm64-musl":
+      optional: true
+    "@biomejs/cli-linux-x64":
+      optional: true
+    "@biomejs/cli-linux-x64-musl":
+      optional: true
+    "@biomejs/cli-win32-arm64":
+      optional: true
+    "@biomejs/cli-win32-x64":
+      optional: true
+  bin:
+    biome: bin/biome
+  checksum: 10c0/a46639cba046fb6c19ab2e02257ddda696bdda7bb12e0ad696286074540ed0d6b395258f8711babb439b04d0659ce52b05716a8da1914cb7512a9d43c02118d8
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-darwin-arm64@npm:2.5.4":
+  version: 2.5.4
+  resolution: "@biomejs/cli-darwin-arm64@npm:2.5.4"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-darwin-x64@npm:2.5.4":
+  version: 2.5.4
+  resolution: "@biomejs/cli-darwin-x64@npm:2.5.4"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-linux-arm64-musl@npm:2.5.4":
+  version: 2.5.4
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.5.4"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-linux-arm64@npm:2.5.4":
+  version: 2.5.4
+  resolution: "@biomejs/cli-linux-arm64@npm:2.5.4"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-linux-x64-musl@npm:2.5.4":
+  version: 2.5.4
+  resolution: "@biomejs/cli-linux-x64-musl@npm:2.5.4"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-linux-x64@npm:2.5.4":
+  version: 2.5.4
+  resolution: "@biomejs/cli-linux-x64@npm:2.5.4"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-win32-arm64@npm:2.5.4":
+  version: 2.5.4
+  resolution: "@biomejs/cli-win32-arm64@npm:2.5.4"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-win32-x64@npm:2.5.4":
+  version: 2.5.4
+  resolution: "@biomejs/cli-win32-x64@npm:2.5.4"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
 "@egjs/hammerjs@npm:^2.0.17":
   version: 2.0.17
   resolution: "@egjs/hammerjs@npm:2.0.17"
@@ -1827,13 +1918,77 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-rethemed/core@npm:0.1.2":
+"@react-native-rethemed/chakra-ui-tokens@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@react-native-rethemed/chakra-ui-tokens@npm:0.1.2"
+  dependencies:
+    "@react-native-rethemed/core": "npm:^0.1.2"
+  checksum: 10c0/e4846f1dfadc79796941c98d59436a56168a4d14613caa33da2897ba4bd1cb939ea9ad451ce881a0a8cd198fc02e2d948c931d4be03c12223894da5c1e0f06f6
+  languageName: node
+  linkType: hard
+
+"@react-native-rethemed/core@npm:0.1.2, @react-native-rethemed/core@npm:^0.1.2":
   version: 0.1.2
   resolution: "@react-native-rethemed/core@npm:0.1.2"
   peerDependencies:
     react: ">=18"
     react-native: "*"
   checksum: 10c0/f6e6ee76a93488103637d0c61e421b731fb1b84055b6ee7182bf446ff7c7f3c156cadd732eeb3df3f345a28a42c49607dac9ae7fdd4f0208d4fc9f6ad962cba3
+  languageName: node
+  linkType: hard
+
+"@react-native-rethemed/material-design-tokens@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@react-native-rethemed/material-design-tokens@npm:0.1.2"
+  dependencies:
+    "@react-native-rethemed/core": "npm:^0.1.2"
+  checksum: 10c0/1b7c0d382febe4e91c34e5da89d5a2e65b05d7a97157bbbfb05e5ea373c6c6147ef5e72a73fd832b8612874064fe27a1f3747509d9c5df668e56ff808e792eb8
+  languageName: node
+  linkType: hard
+
+"@react-native-rethemed/material-ui-tokens@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@react-native-rethemed/material-ui-tokens@npm:0.1.2"
+  dependencies:
+    "@react-native-rethemed/core": "npm:^0.1.2"
+  checksum: 10c0/4316d05b8744fbfbc0e895c62abc257e0d77e3b902e3a22a3408285f28a77b86d7214d7c82586d8c2459ae9c42907df9f18f0b590aa90d57fe4db6504f64f249
+  languageName: node
+  linkType: hard
+
+"@react-native-rethemed/panda-css-tokens@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@react-native-rethemed/panda-css-tokens@npm:0.1.2"
+  dependencies:
+    "@react-native-rethemed/core": "npm:^0.1.2"
+  checksum: 10c0/688edbeb282093a33f37d71fd5c68a9ec22e2b35bf48055cead0430de295798d65c022abc5c1e0c108fd3421c2c6b44685d3ba92569da77190dab77685d8d497
+  languageName: node
+  linkType: hard
+
+"@react-native-rethemed/radix-ui-tokens@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@react-native-rethemed/radix-ui-tokens@npm:0.1.2"
+  dependencies:
+    "@react-native-rethemed/core": "npm:^0.1.2"
+  checksum: 10c0/3d10cf08af349ffefa32c01b057c74564c19aecd9f6d5204f93333c3bcbc1dd15214bbf663238eae26f938303c750c3764eff98eaa7b6c70ef03f3598799ff8d
+  languageName: node
+  linkType: hard
+
+"@react-native-rethemed/shadcn-ui-tokens@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@react-native-rethemed/shadcn-ui-tokens@npm:0.1.2"
+  dependencies:
+    "@react-native-rethemed/core": "npm:^0.1.2"
+    "@react-native-rethemed/tailwind-css-tokens": "npm:^0.1.2"
+  checksum: 10c0/93f191fd67837a9af478a39ca0121f6a159b2adb6a33fe961db9967b42a37e2740f1b370115f612364b9ba237359a4cebda3d9892ef3249800c5cfdff48b272c
+  languageName: node
+  linkType: hard
+
+"@react-native-rethemed/tailwind-css-tokens@npm:0.1.2, @react-native-rethemed/tailwind-css-tokens@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@react-native-rethemed/tailwind-css-tokens@npm:0.1.2"
+  dependencies:
+    "@react-native-rethemed/core": "npm:^0.1.2"
+  checksum: 10c0/004b75eb2f52399d78eb590f0286e5ef7918256d334b5ee92b39ed9de9e5fdac140a3cc58213c04f5ee37dd42d719c904baef2f130ffbf7c1494b764b4327859
   languageName: node
   linkType: hard
 
@@ -5031,8 +5186,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-native-rethemed-snack-app@workspace:."
   dependencies:
+    "@biomejs/biome": "npm:2.5.4"
     "@expo/ui": "npm:~57.0.22"
+    "@react-native-rethemed/chakra-ui-tokens": "npm:0.1.2"
     "@react-native-rethemed/core": "npm:0.1.2"
+    "@react-native-rethemed/material-design-tokens": "npm:0.1.2"
+    "@react-native-rethemed/material-ui-tokens": "npm:0.1.2"
+    "@react-native-rethemed/panda-css-tokens": "npm:0.1.2"
+    "@react-native-rethemed/radix-ui-tokens": "npm:0.1.2"
+    "@react-native-rethemed/shadcn-ui-tokens": "npm:0.1.2"
+    "@react-native-rethemed/tailwind-css-tokens": "npm:0.1.2"
     "@types/react": "npm:~19.2.2"
     expo: "npm:~57.0.27"
     expo-constants: "npm:~57.0.21"
