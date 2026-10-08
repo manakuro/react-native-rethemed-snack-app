@@ -901,6 +901,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@clack/core@npm:1.5.1":
+  version: 1.5.1
+  resolution: "@clack/core@npm:1.5.1"
+  dependencies:
+    fast-wrap-ansi: "npm:^0.2.0"
+    sisteransi: "npm:^1.0.5"
+  checksum: 10c0/6dca93ff5a34bfe8c150367519bc40a847e9172cb1a78b18c88da0507cb6ad899debe1ad5cfcb9796e439108f12f003cf06fd002e2293bc85ff500975e45ff13
+  languageName: node
+  linkType: hard
+
+"@clack/prompts@npm:1.8.1":
+  version: 1.8.1
+  resolution: "@clack/prompts@npm:1.8.1"
+  dependencies:
+    "@clack/core": "npm:1.5.1"
+    fast-string-width: "npm:^3.0.2"
+    fast-wrap-ansi: "npm:^0.2.0"
+    sisteransi: "npm:^1.0.5"
+  checksum: 10c0/ed38748acde0cb1e7ebdac1242470c78bd90380cbdde1e5560e0828881e3c74e2676de666086cf8183c8d4d3f1fc6e489f15a004f0d9f8ee294a3aa744de2093
+  languageName: node
+  linkType: hard
+
 "@egjs/hammerjs@npm:^2.0.17":
   version: 2.0.17
   resolution: "@egjs/hammerjs@npm:2.0.17"
@@ -1924,6 +1946,19 @@ __metadata:
   dependencies:
     "@react-native-rethemed/core": "npm:^0.1.2"
   checksum: 10c0/e4846f1dfadc79796941c98d59436a56168a4d14613caa33da2897ba4bd1cb939ea9ad451ce881a0a8cd198fc02e2d948c931d4be03c12223894da5c1e0f06f6
+  languageName: node
+  linkType: hard
+
+"@react-native-rethemed/cli@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@react-native-rethemed/cli@npm:0.1.2"
+  dependencies:
+    "@clack/prompts": "npm:1.8.1"
+    "@react-native-rethemed/core": "npm:^0.1.2"
+    jiti: "npm:2.7.0"
+  bin:
+    react-native-rethemed: ./bin/react-native-rethemed.mjs
+  checksum: 10c0/145bf836ba02fcc024ecc73a9468a4853ff8de30fb73141426fa1474370f3db129c520e51b79553ec5eebcef93b2921dc90fc8dbe694c05e871804282bd44a49
   languageName: node
   linkType: hard
 
@@ -3461,6 +3496,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fast-string-truncated-width@npm:^3.0.2":
+  version: 3.0.3
+  resolution: "fast-string-truncated-width@npm:3.0.3"
+  checksum: 10c0/043b8663397d14a3880ce4f3407bcda60b40db9bbeafe62863a35d1f9c69ea17c8da3fcd72de235553e6c9cd053128cde9e24ca0d4a7463208f48db3cd23d981
+  languageName: node
+  linkType: hard
+
+"fast-string-width@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "fast-string-width@npm:3.0.2"
+  dependencies:
+    fast-string-truncated-width: "npm:^3.0.2"
+  checksum: 10c0/c8822d175315bb353ebe782b65214ac53b13e3bf704e03b132ea7bdfa8de6a636375b3ab7a4097545393d109381c37c4f387c72a462c90b61412dbc4632f39a7
+  languageName: node
+  linkType: hard
+
+"fast-wrap-ansi@npm:^0.2.0":
+  version: 0.2.2
+  resolution: "fast-wrap-ansi@npm:0.2.2"
+  dependencies:
+    fast-string-width: "npm:^3.0.2"
+  checksum: 10c0/1aa7be4f7cb86f4bdb14691cb6bcc0b8df8b3b89df142ade3ae1602332dcf6f990cd750a923cd581ca0847808cb4ec1aa5afaafa7a72f849e87a2a62c98fa370
+  languageName: node
+  linkType: hard
+
 "fb-dotslash@npm:0.5.8":
   version: 0.5.8
   resolution: "fb-dotslash@npm:0.5.8"
@@ -3889,6 +3949,15 @@ __metadata:
   version: 0.16.1
   resolution: "jimp-compact@npm:0.16.1"
   checksum: 10c0/2d73bb927d840ce6dc093d089d770eddbb81472635ced7cad1d7c4545d8734aecf5bd3dedf7178a6cfab4d06c9d6cbbf59e5cb274ed99ca11cd4835a6374f16c
+  languageName: node
+  linkType: hard
+
+"jiti@npm:2.7.0":
+  version: 2.7.0
+  resolution: "jiti@npm:2.7.0"
+  bin:
+    jiti: lib/jiti-cli.mjs
+  checksum: 10c0/1b1e2310a490dce1aeea3da5f5dfe18273516c20ce48be2e98eb8ea452d5f3dcc8fd0cfd6d28b4052a24c5dbab6e3089b2d7e79f0bce7915b10d750929563c42
   languageName: node
   linkType: hard
 
@@ -5189,6 +5258,7 @@ __metadata:
     "@biomejs/biome": "npm:2.5.4"
     "@expo/ui": "npm:~57.0.22"
     "@react-native-rethemed/chakra-ui-tokens": "npm:0.1.2"
+    "@react-native-rethemed/cli": "npm:0.1.2"
     "@react-native-rethemed/core": "npm:0.1.2"
     "@react-native-rethemed/material-design-tokens": "npm:0.1.2"
     "@react-native-rethemed/material-ui-tokens": "npm:0.1.2"
